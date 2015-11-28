@@ -16213,6 +16213,8 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16289,6 +16291,8 @@ Source: www.kingbright.com</description>
 <instance part="GND3" gate="1" x="-5.08" y="17.78"/>
 <instance part="GND15" gate="1" x="-5.08" y="71.12"/>
 <instance part="GND16" gate="1" x="-5.08" y="88.9"/>
+<instance part="GND17" gate="1" x="187.96" y="-7.62"/>
+<instance part="GND18" gate="1" x="160.02" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -16529,6 +16533,16 @@ Source: www.kingbright.com</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="LP_IN" gate="G$1" pin="RING"/>
 <wire x1="-5.08" y1="20.32" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="RING"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="187.96" y1="-5.08" x2="187.96" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="HP_IN" gate="G$1" pin="RING"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="160.02" y1="2.54" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">

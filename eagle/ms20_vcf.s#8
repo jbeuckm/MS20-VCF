@@ -16209,6 +16209,7 @@ Source: www.kingbright.com</description>
 <part name="CV1" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="CV2" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="LP_IN" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="OUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16279,6 +16280,7 @@ Source: www.kingbright.com</description>
 <instance part="CV1" gate="G$1" x="-12.7" y="83.82"/>
 <instance part="CV2" gate="G$1" x="-12.7" y="101.6"/>
 <instance part="LP_IN" gate="G$1" x="-12.7" y="35.56"/>
+<instance part="OUT" gate="G$1" x="195.58" y="0" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -16559,8 +16561,12 @@ Source: www.kingbright.com</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="RESONANCE" gate="G$1" pin="E"/>
-<wire x1="182.88" y1="15.24" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="15.24" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="OUT" gate="G$1" pin="TIP"/>
+<wire x1="182.88" y1="5.08" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="5.08" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
+<junction x="182.88" y="5.08"/>
 </segment>
 </net>
 <net name="N$11" class="0">
