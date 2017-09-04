@@ -16468,6 +16468,13 @@ Digikey #P9821BK-ND</description>
 <part name="C24" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
 <part name="C25" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="C1" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C1206" value="100n"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16572,6 +16579,13 @@ Digikey #P9821BK-ND</description>
 <attribute name="VALUE" x="158.496" y="82.169" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="167.64" y="83.82"/>
+<instance part="C1" gate="G$1" x="180.34" y="81.28"/>
+<instance part="C2" gate="G$1" x="193.04" y="81.28"/>
+<instance part="C4" gate="G$1" x="210.82" y="81.28"/>
+<instance part="C8" gate="G$1" x="210.82" y="66.04"/>
+<instance part="C9" gate="G$1" x="193.04" y="66.04"/>
+<instance part="C10" gate="G$1" x="180.34" y="66.04"/>
+<instance part="GND14" gate="1" x="223.52" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -16580,15 +16594,29 @@ Digikey #P9821BK-ND</description>
 <segment>
 <pinref part="P-1" gate="1" pin="-12V"/>
 <pinref part="IC1" gate="G$5" pin="V-"/>
-<wire x1="203.835" y1="57.15" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="203.835" y1="57.15" x2="205.74" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="57.15" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V-"/>
+<wire x1="193.04" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="66.04" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 <junction x="187.96" y="53.34"/>
 <pinref part="IC3" gate="P" pin="V-"/>
 <wire x1="187.96" y1="55.88" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="187.96" y="55.88"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="53.34" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
+<junction x="205.74" y="53.34"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="60.96" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
+<junction x="193.04" y="53.34"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="60.96" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
+<junction x="180.34" y="55.88"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -16618,15 +16646,29 @@ Digikey #P9821BK-ND</description>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="IC1" gate="G$5" pin="V+"/>
-<wire x1="203.835" y1="86.36" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.835" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V+"/>
+<wire x1="193.04" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="81.28" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="93.98"/>
 <pinref part="IC3" gate="P" pin="V+"/>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="81.28" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="86.36"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="93.98" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<junction x="203.2" y="93.98"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="86.36" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="180.34" y="86.36"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="193.04" y="93.98"/>
 </segment>
 <segment>
 <pinref part="FREQ" gate="G$1" pin="E"/>
@@ -16830,6 +16872,28 @@ Digikey #P9821BK-ND</description>
 <wire x1="157.48" y1="88.9" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="180.34" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="73.66" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="76.2" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="68.58" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+<junction x="180.34" y="73.66"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="76.2" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
+<junction x="193.04" y="73.66"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="68.58" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="76.2" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<junction x="210.82" y="73.66"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="68.58" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17066,11 +17130,11 @@ Digikey #P9821BK-ND</description>
 <pinref part="CV_1" gate="G$1" pin="NORM"/>
 <wire x1="-5.08" y1="96.52" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="96.52" x2="-2.54" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="104.14" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="104.14" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CV"/>
 <wire x1="127" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
