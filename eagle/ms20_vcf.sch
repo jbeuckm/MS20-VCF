@@ -16402,49 +16402,49 @@ Digikey #P9821BK-ND</description>
 <part name="IC1" library="synthdiy" deviceset="LM13700" device="N"/>
 <part name="IC2" library="linear" deviceset="TL082" device="P"/>
 <part name="IC3" library="linear" deviceset="TL082" device="P"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="CV1_LEV" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
 <part name="Q1" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="2N3906" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM" value="green"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM" value="green"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="1k8"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="0207/7" value="1k8"/>
 <part name="RESONANCE" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="0207/10" value="4k7"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="0207/7" value="4k7"/>
 <part name="C3" library="rcl" deviceset="C-US" device="050-024X044" value="4n7"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="0207/10" value="470k"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="1k8"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="1k8"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="220"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="0207/7" value="220"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="050-024X044" value="1n"/>
 <part name="C6" library="rcl" deviceset="C-US" device="050-024X044" value="1n"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="220"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="220"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="B45181A" value="0.47uF"/>
 <part name="FREQ" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
 <part name="HP_IN" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD" value="AUDIO-JACKITEAD"/>
